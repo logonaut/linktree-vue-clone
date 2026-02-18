@@ -1,10 +1,9 @@
+<template>
+  <router-view />
+</template>
+
 <script setup>
-import NavMenu from '@/components/NavMenu.vue'
+import { RouterView } from 'vue-router'
 </script>
 
-<template>
-  <div class="flex min-h-screen flex-col">
-    <NavMenu />
-    <RouterView />
-  </div>
-</template>
+<style scoped></style>
