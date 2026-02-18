@@ -1,5 +1,5 @@
 <template>
-  <a
+  
     href="#"
     target="_blank"
     rel="noopener noreferrer"
@@ -24,13 +24,13 @@
         <path d="M2 12l10 5 10-5" />
       </svg>
     </div>
-
     <!-- Text Content -->
     <div class="flex-shrink overflow-hidden">
       <h3 class="font-display truncate font-semibold text-white">Link Title</h3>
       <p class="truncate text-sm text-gray-400">This is just simple descriptive text.</p>
     </div>
+    <!-- Glow Effect Overlay -->
+    <div class="pointer-events-none absolute inset-0 rounded-xl bg-gradient-to-r from-green-500/0 via-green-400/10 to-green-500/0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
   </a>
 </template>
-
 <script setup></script>
