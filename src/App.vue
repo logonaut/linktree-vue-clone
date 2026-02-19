@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 font-sans">
+  <div class="min-h-screen bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 font-sans">
     <router-view />
   </div>
 </template>
